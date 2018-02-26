@@ -16,6 +16,7 @@ public class CalculatorTest {
     }
 
     public void whenSubtractOneMinusOneThenZero () {
+        Calculator calc = new Calculator();
         calc.subtruct(1D, 1D);
         double result = calc.getResult();
         double expected = 0D;
@@ -23,6 +24,7 @@ public class CalculatorTest {
     }
  
    public void whenMultiplyOneAsteriskOneThenOne() {
+        Calculator calc = new Calculator();
         calc.multiply(1D, 1D);
         double result = calc.getResult();
         double expected = 1D;
@@ -30,6 +32,7 @@ public class CalculatorTest {
     }
 
     public void whenDivideOneSlashOneThenOne() {
+        Calculator calc = new Calculator();
         calc.divide(1D, 1D);
         double result = calc.getResult();
         double expected = 1D;
