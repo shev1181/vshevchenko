@@ -24,12 +24,13 @@ public class ConverterTest {
         Converter converter = new Converter();
         int result = converter.euroToRuble(1);
         assertThat(result, is(70D));
+     }
 
     @Test
     public void when1DollarToRubleThen60() {
         Converter converter = new Converter();
         int result = converter.dollarToRuble(1);
         assertThat(result, is(60D));
-    }
+    
     }
 }
